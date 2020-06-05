@@ -3,4 +3,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="test">Testing Navigation</string>
+    <string name="next">NEXT</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="nextText">REACHED NEXT</string>
+    <string name="previousText">REACHED PREVIOUS</string>
 </resources>
