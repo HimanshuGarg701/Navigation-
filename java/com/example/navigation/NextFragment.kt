@@ -23,8 +23,11 @@ class NextFragment : Fragment() {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_next, container, false)
 
         binding.nextDistant.setOnClickListener {
-            it.findNavController().navigate(R.id.action_nextFragment_to_nextDistant2)
+            val student = Student("Mike", 54678546)
+            it.findNavController().navigate(NextFragmentDirections.actionNextFragmentToNextDistant2(student))
         }
+
+
         return binding.root
     }
 

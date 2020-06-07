@@ -37,5 +37,8 @@
         android:name="com.example.navigation.NextDistant"
         android:label="fragment_next_distant"
         tools:layout="@layout/fragment_next_distant" >
+        <argument
+            android:name="studentData"
+            app:argType="com.example.navigation.Student" />
     </fragment>
 </navigation>
