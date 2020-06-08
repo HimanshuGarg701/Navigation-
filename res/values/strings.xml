@@ -8,4 +8,5 @@
     <string name="previous">PREVIOUS</string>
     <string name="nextText">REACHED NEXT</string>
     <string name="previousText">REACHED PREVIOUS</string>
+    <string name="nextDistant">NEXT DISTANT</string>
 </resources>

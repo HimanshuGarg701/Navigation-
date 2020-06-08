@@ -22,10 +22,20 @@
         android:id="@+id/nextFragment"
         android:name="com.example.navigation.NextFragment"
         android:label="fragment_next"
-        tools:layout="@layout/fragment_next" />
+        tools:layout="@layout/fragment_next" >
+        <action
+            android:id="@+id/action_nextFragment_to_nextDistant2"
+            app:destination="@id/nextDistant2" />
+    </fragment>
     <fragment
         android:id="@+id/previousFragment"
         android:name="com.example.navigation.PreviousFragment"
         android:label="fragment_previous"
         tools:layout="@layout/fragment_previous" />
+    <fragment
+        android:id="@+id/nextDistant2"
+        android:name="com.example.navigation.NextDistant"
+        android:label="fragment_next_distant"
+        tools:layout="@layout/fragment_next_distant" >
+    </fragment>
 </navigation>
